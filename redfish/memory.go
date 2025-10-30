@@ -7,7 +7,7 @@ package redfish
 import (
 	"encoding/json"
 
-	"github.com/stmcginnis/gofish/common"
+	"github.com/damyan/gofish/common"
 )
 
 // BaseModuleType is the type of module.

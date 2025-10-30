@@ -9,8 +9,8 @@ import (
 	"errors"
 	"io"
 
-	"github.com/stmcginnis/gofish/common"
-	"github.com/stmcginnis/gofish/redfish"
+	"github.com/damyan/gofish/common"
+	"github.com/damyan/gofish/redfish"
 )
 
 type SSLCert struct {

@@ -9,7 +9,7 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/stmcginnis/gofish/common"
+	"github.com/damyan/gofish/common"
 )
 
 // ConnectedVia are the ways the media may be connected.

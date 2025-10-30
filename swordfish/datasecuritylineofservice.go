@@ -5,7 +5,7 @@
 package swordfish
 
 import (
-	"github.com/stmcginnis/gofish/common"
+	"github.com/damyan/gofish/common"
 )
 
 // DataSecurityLineOfService is used to describe data security service

@@ -7,7 +7,7 @@ package redfish
 import (
 	"encoding/json"
 
-	"github.com/stmcginnis/gofish/common"
+	"github.com/damyan/gofish/common"
 )
 
 // ASNumberRange shall contain the Autonomous System (AS) number range.

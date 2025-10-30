@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/stmcginnis/gofish/common"
+	"github.com/damyan/gofish/common"
 )
 
 type AutomaticRetryConfig string

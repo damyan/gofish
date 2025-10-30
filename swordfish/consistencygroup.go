@@ -9,7 +9,7 @@ import (
 	"errors"
 	"reflect"
 
-	"github.com/stmcginnis/gofish/common"
+	"github.com/damyan/gofish/common"
 )
 
 type ApplicationConsistencyMethod string

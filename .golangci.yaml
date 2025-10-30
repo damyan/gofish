@@ -110,7 +110,7 @@ formatters:
   settings:
     goimports:
       local-prefixes:
-        - github.com/stmcginnis
+        - github.com/damyan
   exclusions:
     generated: lax
     paths:

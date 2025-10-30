@@ -8,7 +8,7 @@ import (
 	"encoding/json"
 	"encoding/xml"
 
-	"github.com/stmcginnis/gofish/common"
+	"github.com/damyan/gofish/common"
 )
 
 type ApplyUpdate string

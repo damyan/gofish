@@ -10,8 +10,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/stmcginnis/gofish"
-	"github.com/stmcginnis/gofish/common"
+	"github.com/damyan/gofish"
+	"github.com/damyan/gofish/common"
 )
 
 const serviceRootBody = `{

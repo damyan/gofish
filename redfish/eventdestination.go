@@ -10,7 +10,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/stmcginnis/gofish/common"
+	"github.com/damyan/gofish/common"
 )
 
 // DeliveryRetryPolicy is the retry policy for delivery failure.

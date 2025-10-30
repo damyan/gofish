@@ -8,8 +8,8 @@ import (
 	"encoding/json"
 	"reflect"
 
-	"github.com/stmcginnis/gofish/common"
-	"github.com/stmcginnis/gofish/redfish"
+	"github.com/damyan/gofish/common"
+	"github.com/damyan/gofish/redfish"
 )
 
 // StorageService is a collection of resources that the system can make

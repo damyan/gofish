@@ -8,8 +8,8 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/stmcginnis/gofish/common"
-	"github.com/stmcginnis/gofish/redfish"
+	"github.com/damyan/gofish/common"
+	"github.com/damyan/gofish/redfish"
 )
 
 // ErrActionNotSupported is returned when the requested OEM-specific action

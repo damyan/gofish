@@ -8,7 +8,7 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/stmcginnis/gofish/redfish"
+	"github.com/damyan/gofish/redfish"
 )
 
 type Manager struct {
