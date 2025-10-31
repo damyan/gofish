@@ -141,11 +141,13 @@ func (e *Entity) PostWithResponse(uri string, payload any) (*http.Response, erro
 // headers generates the appropriate headers including etag if configured.
 func (e *Entity) headers() map[string]string {
 	header := make(map[string]string)
+	fmt.Printf("Etag: %s, disableEtagMatch: %t\n", e.etag, e.disableEtagMatch)
 	if e.etag != "" && !e.disableEtagMatch {
 		if e.stripEtagQuotes {
 			e.etag = strings.Trim(e.etag, `"`)
 		}
 		header["If-Match"] = e.etag
+		fmt.Printf("Headers: %s\n", header)
 	}
 	return header
 }
